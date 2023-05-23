@@ -9,4 +9,4 @@ Lab of Continuous Integration with Docker and Jenkins
 
 - Docker-compose is called to build frontend (python) + backend (redis)
 
-
+- /etc/group file inside Jenkins container has to be modified in order to avoid docker sock permission denial
