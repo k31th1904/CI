@@ -14,9 +14,7 @@ spec:
         app: sample-app
     spec:
       containers:
-      - command:
-        - /app/sample-app
-        image: gitopsbook/sample-app:v0.1
-        name: sample-app
+      - name: hello-world
+        image: nginx
         ports:
         - containerPort: 8080
